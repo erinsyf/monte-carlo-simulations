@@ -1,6 +1,6 @@
 # Monte Carlo Simulations
 
-Python implementations of Monte Carlo techniques developed during PHY407 (Computational Physics) at the University of Toronto.
+Python implementations of Monte Carlo methods developed during PHY407 (Computational Physics) at the University of Toronto.
 
 ## Projects
 
@@ -8,21 +8,19 @@ Python implementations of Monte Carlo techniques developed during PHY407 (Comput
 
 **File:** `lab10_q3.py`
 
-Compares two numerical integration methods:
-- Mean-value Monte Carlo integration
-- Importance sampling
+Compares numerical integration using mean-value Monte Carlo sampling and importance sampling.
 
-### 2. Two-Dimensional Ising Model
+### 2. Quantum Ideal Gas
+
+**File:** `lab11_q1.py`
+
+Uses the Metropolis Monte Carlo algorithm to simulate a non-interacting quantum ideal gas with discrete energy levels.
+
+### 3. Two-Dimensional Ising Model
 
 **File:** `lab11_q4.py`
 
 Simulates a classical Ising spin system on a two-dimensional lattice using the Metropolis algorithm.
-
-The simulation includes:
-- Random spin-flip proposals
-- Energy calculations using nearest-neighbour interactions
-- Temperature-dependent acceptance probabilities
-- Energy and magnetisation evolution
 
 ## Requirements
 
@@ -35,6 +33,6 @@ The simulation includes:
 
 Developed during PHY407: Computational Physics at the University of Toronto (2025), taught by Professor Nicolas Grisouard.
 
-The problems and numerical methods were based on PHY407 course materials and Mark Newman's *Computational Physics*, including Exercise 10.9 on the Ising model.
+The numerical methods and problem formulations are based on PHY407 course materials and Mark Newman's *Computational Physics*, including Example 10.3 (quantum ideal gas) and Exercise 10.9 (Ising model).
 
 The Python implementations were written by Erin Fung for coursework completed collaboratively with Valerie MacIsaac. These files preserve the original undergraduate coursework implementations.
